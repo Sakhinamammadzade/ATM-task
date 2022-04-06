@@ -9,26 +9,24 @@ string currentcardNumber = Console.ReadLine();
 Console.WriteLine("please enter your pinn code");
 string currentPinn = Console.ReadLine();
 
-if (cardNum == currentcardNumber && pinnCode ==currentPinn)
-{
 
+if (cardNum == currentcardNumber && pinnCode == currentPinn)
+{
     Console.WriteLine("logged into your account");
     Console.BackgroundColor = ConsoleColor.Green;
 
 }
 else
 {
-    if (cardNum!=currentcardNumber)
+    if (cardNum != currentcardNumber)
     {
-  
         Console.WriteLine("card number is incorret");
         Console.BackgroundColor = ConsoleColor.Red;
     }
 
 
-    else if (pinnCode!=currentPinn)
+    else if (pinnCode != currentPinn)
     {
-       
         Console.WriteLine("pinn code is incorret");
         Console.BackgroundColor = ConsoleColor.Red;
     }
